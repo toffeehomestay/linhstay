@@ -1,2 +1,44 @@
-<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Liên hệ Linhstay để trao đổi nhu cầu chụp ảnh và Marketing lưu trú."><title>Liên hệ | Linhstay</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head><body><header class="nav"><a class="brand" href="index.html">LINHSTAY<span>.</span></a><p>Photography · Video · Hospitality Marketing</p><button class="menu" aria-label="Mở điều hướng" aria-expanded="false">Menu</button><nav><a href="du-an.html">Dự án</a><a href="index.html#dich-vu">Dịch vụ</a><a href="ve-linhstay.html">Về Linhstay</a><a href="lien-he.html">Liên hệ</a></nav></header><main><section class="page-hero"><p class="eyebrow">LIÊN HỆ</p><h1>Hãy nói về không gian bạn muốn khách <em>nhớ tới.</em></h1><p class="lead">Gửi vài thông tin cơ bản về địa điểm, nhu cầu và thời gian dự kiến. Kênh nhận form sẽ được kết nối trước khi xuất bản.</p></section><section class="section"><form class="contact-form" action="#" method="post" onsubmit="return false"><label>Họ và tên<input name="name" autocomplete="name" placeholder="Nhập họ và tên"></label><label>Cơ sở lưu trú / thương hiệu<input name="business" placeholder="Tên khách sạn, homestay hoặc thương hiệu"></label><label>Khu vực<input name="location" placeholder="Ví dụ: Hà Nội"></label><label>Nhu cầu<select name="need"><option>Chụp ảnh phòng / không gian</option><option>Quay video</option><option>Hospitality Marketing</option><option>Khác</option></select></label><label>Email hoặc số điện thoại<input name="contact" placeholder="Thông tin để Linhstay phản hồi"></label><label>Chia sẻ thêm<textarea name="message" rows="5" placeholder="Quy mô, thời gian dự kiến, nhu cầu cụ thể..."></textarea></label><button class="button lime" type="submit">GỬI YÊU CẦU — SẼ KẾT NỐI SAU</button><p class="form-note">Form này chưa gửi dữ liệu đi đâu. Trước khi publish, mình sẽ kết nối Tally, Formspree hoặc email nhận lead theo lựa chọn của bạn.</p></form></section></main><footer><a class="brand" href="index.html">LINHSTAY<span>.</span></a><p>Photography · Video · Hospitality Marketing</p></footer><script src="script.js"></script></body></html>
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Liên hệ Linhstay để trao đổi nhu cầu chụp ảnh và Marketing lưu trú.">
+  <title>Liên hệ | Linhstay</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="index.html">LINHSTAY<span>.</span></a>
+    <p>Photography · Video · Hospitality Marketing</p>
+    <button class="menu" aria-label="Mở điều hướng" aria-expanded="false">Menu</button>
+    <nav><a href="du-an.html">Dự án</a><a href="index.html#dich-vu">Dịch vụ</a><a href="ve-linhstay.html">Về Linhstay</a><a href="lien-he.html">Liên hệ</a></nav>
+  </header>
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">LIÊN HỆ</p>
+      <h1>Hãy nói về không gian bạn muốn khách <em>nhớ tới.</em></h1>
+      <p class="lead">Gửi vài thông tin cơ bản về địa điểm, nhu cầu và thời gian dự kiến.</p>
+    </section>
+    <section class="section">
+      <form class="contact-form" data-endpoint="https://script.google.com/macros/s/AKfycbykxKI2MTRiLZzH4PBIh57SQoV1EN1lymxKW6yuSKmPziFMF6CiN3iEgqmOXH00-MVC/exec">
+        <label>Họ và tên<input name="name" autocomplete="name" placeholder="Nhập họ và tên" required></label>
+        <label>Cơ sở lưu trú / thương hiệu<input name="business" placeholder="Tên khách sạn, homestay hoặc thương hiệu"></label>
+        <label>Khu vực<input name="location" placeholder="Ví dụ: Hà Nội"></label>
+        <label>Nhu cầu<select name="need"><option>Chụp ảnh phòng / không gian</option><option>Quay video</option><option>Hospitality Marketing</option><option>Khác</option></select></label>
+        <label>Email hoặc số điện thoại<input name="contact" placeholder="Thông tin để Linhstay phản hồi" required></label>
+        <label>Chia sẻ thêm<textarea name="message" rows="5" placeholder="Quy mô, thời gian dự kiến, nhu cầu cụ thể..."></textarea></label>
+        <label aria-hidden="true" style="position:absolute;left:-9999px">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+        <button class="button lime" type="submit">GỬI YÊU CẦU</button>
+        <p class="form-note" data-form-note>Thông tin của bạn sẽ được Linhstay tiếp nhận và phản hồi sớm.</p>
+      </form>
+    </section>
+  </main>
+  <footer><a class="brand" href="index.html">LINHSTAY<span>.</span></a><p>Photography · Video · Hospitality Marketing</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
 
