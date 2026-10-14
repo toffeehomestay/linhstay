@@ -1,0 +1,2 @@
+const menu=document.querySelector('.menu'),nav=document.querySelector('.nav nav');if(menu&&nav){menu.onclick=()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',open);menu.textContent=open?'Đóng':'Menu'}}
+
